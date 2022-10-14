@@ -1,16 +1,6 @@
 net=WSApplication.current_network
-puts 'running ruby for SWMM Networks'
+puts 'Running ruby for SWMM Networks'
 nodes=Array.new
-net.row_object_collection('sw_node').each do |n|
-        if n.selected?
-                temp=Array.new
-                temp << n.id
-                temp << n.x
-                temp << n.y
-                nodes << temp
-        end
-end
-puts 'running ruby for SWMM Networks'
 net.transaction_begin
 net.row_object_collection('sw_subcatchment').each do |s|
         if s.selected?
