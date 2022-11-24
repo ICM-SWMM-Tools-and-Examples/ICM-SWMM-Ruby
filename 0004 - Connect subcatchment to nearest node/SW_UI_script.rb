@@ -1,18 +1,21 @@
 net=WSApplication.current_network
 puts 'Running ruby for SWMM Networks'
 nodes=Array.new
+net.row_object_collection('sw_node').each do |n|
+        if n.selected?
+                temp=Array.new
+                temp << n.id
+                temp << n.x
+                temp << n.y
+                nodes << temp
+        end
+end
 net.transaction_begin
 net.row_object_collection('sw_subcatchment').each do |s|
         if s.selected?
                 sx = s.x
                 sy = s.y
                 nearest_distance = 999999999.9
-                nearest_storm_distance = 999999999.9
-                nearest_foul_distance = 999999999.9
-                nearest_sanitary_distance = 999999999.9
-                nearest_combined_distance = 999999999.9
-                nearest_overland_distance = 999999999.9
-                nearest_other_distance = 999999999.9
                 (0...nodes.size).each do |i|
                         nx = nodes[i][1]
                         ny = nodes[i][2]
@@ -28,6 +31,6 @@ net.row_object_collection('sw_subcatchment').each do |s|
         end
         s.write
 end
-puts 'ending ruby'
+puts 'Ending ruby'
 net.transaction_commit
 
