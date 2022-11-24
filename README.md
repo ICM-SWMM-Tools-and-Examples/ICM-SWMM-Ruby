@@ -107,6 +107,20 @@ Innovyze Support will post and moderate code posted here in good faith. This is 
 | 0047 | UI       | Select links sharing the same us and ds node ids                    | Network Data Get      |
 | 0048 | UI       | Delete all scenarios except Base                                    | Network Data Set      |
 | 0049 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0050 | EX       | Find Nearest Storage Node                                           | Network Data Get      |
+| 0051 | EX       | File Read                                                           | Network Data Get      |
+| 0052 | EX       | Quick Trace for InfoWorks and SWMM Networks                         | Network Data Get      |
+| 0053 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0054 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
+| 0055 | EX       | Extract river reach results                                         | Network Data Get      |
 
 ### Descriptions
 
