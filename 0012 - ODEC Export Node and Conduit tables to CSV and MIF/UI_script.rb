@@ -1,7 +1,7 @@
 require 'date'
 
 # Sets the current directory to a user defined location
-Dir.chdir 'E:/Temp'
+Dir.chdir 'C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0012 - ODEC Export Node and Conduit tables to CSV and MIF'
 cfg_file = './ICMFieldMapping.cfg'
 export_date = DateTime.now.strftime("%Y%d%m%H%S")
 

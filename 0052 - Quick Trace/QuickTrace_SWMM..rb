@@ -1,5 +1,5 @@
 # Original Source https://github.com/ngerdts7/ICM_Tools
-#  Modified for ICM SWMM Networks
+# Modified for ICM SWMM Networks
 
 class QuickTrace
 	def initialize
@@ -70,6 +70,7 @@ class QuickTrace
 								working[index]._from=current
 								working[index]._link=l
                                 $whole_length = $whole_length + current._val+l.length
+								puts $whole_length 
 							end
 						end
 					end
@@ -96,4 +97,4 @@ class QuickTrace
 end
 d=QuickTrace.new
 d.doit
-puts "Do you see a red line trace? It's length is", $whole_length
+puts "Do you see a red line trace? It's length is %0.2f" % [$whole_length]

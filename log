@@ -1,0 +1,264 @@
+ Volume in drive C is OS
+ Volume Serial Number is 04E4-612B
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0001 - Decrease Manning's n roughness in all the river reaches
+
+08/31/2022  06:32 AM               539 UI_script.rb
+               1 File(s)            539 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0002 - Runoff surfaces from selected subcatchments
+
+08/31/2022  06:32 AM               812 UI_script.rb
+               1 File(s)            812 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0003 - Find parent Model Group ID
+
+08/31/2022  06:32 AM               497 UI_script.rb
+               1 File(s)            497 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0004 - Connect subcatchment to nearest node
+
+10/15/2022  04:21 PM             1,105 SW_UI_script.rb
+10/03/2022  02:09 PM             1,434 UI_script.rb
+               2 File(s)          2,539 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0005 - Trace network from selection
+
+08/31/2022  06:32 AM               579 UI_Script_v1.rb
+08/31/2022  06:32 AM               579 UI_Script_v2.rb
+08/31/2022  06:32 AM               628 UI_Script_v3.rb
+08/31/2022  06:32 AM               628 UI_Script_v4.rb
+               4 File(s)          2,414 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0006 - Copy a run and set 'Working' flag
+
+08/31/2022  06:32 AM               951 EX_script.rb
+               1 File(s)            951 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0007 - Running simulations
+
+08/31/2022  06:32 AM             2,387 EX_script.rb
+               1 File(s)          2,387 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0008 - List all results fields in a simulation
+
+11/23/2022  06:50 PM               431 UI_script.rb
+               1 File(s)            431 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0009 - ICM Binary Results Export
+
+08/31/2022  06:32 AM            15,205 EX_script.rb
+               1 File(s)         15,205 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0011 - Find Root Model Group
+
+08/31/2022  06:32 AM               458 UI_script.rb
+               1 File(s)            458 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0012 - ODEC Export Node and Conduit tables to CSV and MIF
+
+08/31/2022  06:32 AM             1,025 UI_script.rb
+               1 File(s)          1,025 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0014 - Find all flags in all objects of a network model
+
+08/31/2022  06:32 AM               406 UI_script.rb
+               1 File(s)            406 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0015 - Import or Export RTC to txt
+
+08/31/2022  06:32 AM               924 UI_script.rb
+               1 File(s)            924 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0016 - Example ODEC callback scripts
+
+08/31/2022  06:32 AM               130 ODEC_Offset_x_y.rb
+08/31/2022  06:32 AM               662 ODEC_RTK_SumArea.rb
+08/31/2022  06:32 AM                74 ODEC_simresults.rb
+08/31/2022  06:32 AM               130 ODSC_point_arrays.rb
+               4 File(s)            996 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0017 - Create a node from polygon boundary
+
+08/31/2022  06:32 AM               406 UI_script.rb
+               1 File(s)            406 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0018 - Checking conveyance using Ruby
+
+08/31/2022  06:32 AM               540 UI_script.rb
+               1 File(s)            540 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0019 - River reach bank spacing
+
+08/31/2022  06:32 AM               692 RR_Left_Bank Spacing.rb
+08/31/2022  06:32 AM               694 RR_Right_Bank Spacing.rb
+               2 File(s)          1,386 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0020 - Set the river reach section ends to the bank level
+
+08/31/2022  06:32 AM             1,207 RR_Banks to XS ends.rb
+               1 File(s)          1,207 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0021 - Populate conduit inverts with cross section Zs
+
+08/31/2022  06:32 AM               574 UI_Script.rb
+               1 File(s)            574 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0022 - Output CSV of calcs based on Subcatchment Data
+
+08/31/2022  06:32 AM             4,076 UI_script.rb
+               1 File(s)          4,076 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0023 - Ground Model Import
+
+08/31/2022  06:32 AM               919 UI_script.rb
+               1 File(s)            919 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0025 - Recursively find model network
+
+08/31/2022  06:32 AM               471 EX_script.rb
+               1 File(s)            471 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0026 - Export to geodatabase
+
+08/31/2022  06:32 AM             1,346 UI_script.rb
+               1 File(s)          1,346 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0027 - Copy a subcatchment and rename it
+
+10/03/2022  04:00 PM             1,164 sw_UI_script.rb
+10/03/2022  03:56 PM             1,088 UI_script.rb
+               2 File(s)          2,252 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0028 - Percentage change in runoff surfaces upstream node into new scenario
+
+08/31/2022  06:32 AM             2,138 UI_script.rb
+               1 File(s)          2,138 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0030 - Maintain only first and last river reach sections
+
+08/31/2022  06:32 AM             1,325 UI_script.rb
+               1 File(s)          1,325 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0031 - Replace flag in all objects in a model network
+
+08/31/2022  06:32 AM               648 UI_script_v1.rb
+08/31/2022  06:32 AM             1,664 UI_script_v2.rb
+               2 File(s)          2,312 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0033 - Export a tree object file\Rainfall
+
+08/31/2022  06:32 AM               223 exchange_test.rb
+               1 File(s)            223 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0033 - Export a tree object file\WWF
+
+08/31/2022  06:32 AM               217 exchange_test.rb
+               1 File(s)            217 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0034 - Check sim status
+
+08/31/2022  06:32 AM               793 create_new_wds_database.rb
+08/31/2022  06:32 AM             1,048 icmbinary.rb
+               2 File(s)          1,841 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0035 - Copy objects to new transportable
+
+08/31/2022  06:32 AM               754 EX_script.rb
+               1 File(s)            754 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0036 - Export CSV with QM results from UI
+
+08/31/2022  06:32 AM               858 UI_script.rb
+               1 File(s)            858 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0037 - Rerunning existing simulation
+
+08/31/2022  06:32 AM               574 EX_script.rb
+               1 File(s)            574 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0038 - Querying simulation objects
+
+08/31/2022  06:32 AM               915 EX_script.rb
+               1 File(s)            915 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0039 - Calculate subcatchment areas in all nodes upstream a node
+
+08/31/2022  06:32 AM             1,418 UI_Script.rb
+               1 File(s)          1,418 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0040 - Create a new selection list using a SQL query
+
+08/31/2022  06:32 AM               268 UI_Script.rb
+               1 File(s)            268 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0041 - Minimum and maximum elevation of river reach section at node
+
+08/31/2022  06:32 AM             1,006 UI_Script.rb
+               1 File(s)          1,006 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0042 - Running an Exchange script from the UI
+
+08/31/2022  06:32 AM               140 EX_script.rb
+08/31/2022  06:32 AM               458 UI_script.rb
+               2 File(s)            598 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0043 - Get results from all timesteps
+
+08/31/2022  06:32 AM               803 UI_script.rb
+               1 File(s)            803 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0044 - Trace Current Network family in database tree
+
+08/31/2022  06:32 AM               754 UI_script.rb
+               1 File(s)            754 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0045 - Clear SUDS from subcatchments
+
+08/31/2022  06:32 AM               428 UI_Script.rb
+               1 File(s)            428 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0046 - Output SUDS control as CSV
+
+08/31/2022  06:32 AM             1,295 UI_Script.rb
+               1 File(s)          1,295 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0047 - Select links sharing the same us and ds node ids
+
+08/31/2022  06:32 AM               828 UI_Script.rb
+               1 File(s)            828 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0048 - Delete all scenarios except Base
+
+08/31/2022  06:32 AM               145 UI_Script.rb
+               1 File(s)            145 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0049 - Extract river reach results
+
+08/31/2022  06:32 AM               915 EX_script.rb
+               1 File(s)            915 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0050 - Assign Subcatchment to nearest 'Storage' type Node
+
+08/31/2022  06:32 AM               935 Nearest Storage Node.rb
+               1 File(s)            935 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0051 - Read Files
+
+11/24/2022  02:27 AM               169 ReadFiles.rb
+               1 File(s)            169 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0052 - Quick Trace
+
+11/24/2022  08:22 AM             2,218 QuickTrace_NG.rb
+11/24/2022  05:01 PM             2,347 QuickTrace_SWMM..rb
+               2 File(s)          4,565 bytes
+
+ Directory of C:\Users\dickinre\Documents\Open-Source-Support-main\01 InfoWorks ICM\ICM SWMM Ruby\0053 - Scenario Maker
+
+11/24/2022  05:01 PM             5,500 Scenario_Generator.rb
+               1 File(s)          5,500 bytes
+
+     Total Files Listed:
+              62 File(s)         73,545 bytes
+               0 Dir(s)  134,720,847,872 bytes free
