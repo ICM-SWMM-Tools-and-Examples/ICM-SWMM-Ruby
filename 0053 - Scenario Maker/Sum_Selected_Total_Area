@@ -1,0 +1,16 @@
+# Define a method to calculate the total area of the subcatchments
+def sum_subcatchment_areas(sw_subcatchments)
+  # Initialize a variable to store the total area
+  total_area = 0
+
+  # Iterate over the subcatchments
+  subcatchments.each do |sw_subcatchment|
+    # Add the area of the current subcatchment to the total
+    total_area += subcatchment[total_area]
+    puts "Total Area: #{total_area}"
+  end
+end
+
+# Print the total area
+puts "Total Area: #{total_area}"
+puts 'Ending Ruby'
