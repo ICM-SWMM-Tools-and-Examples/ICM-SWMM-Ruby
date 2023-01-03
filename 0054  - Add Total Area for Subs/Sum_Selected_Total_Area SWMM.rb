@@ -1,16 +1,23 @@
-# Define a method to calculate the total area of the subcatchments
-def calculate_total_area
-  net = WSApplication.current_network
-  total_area = 0
+def calculate_total_selected_subcatchment_area
+  begin
+    net = WSApplication.current_network
+    total_area = 0
 
-  net.transaction_begin
-  net.row_object_collection('hw_subcatchment').each do |s|
-    total_area += s.total_area if s.selected?
+    net.transaction_begin
+    net.row_object_collection('sw_subcatchment').each do |subcatchment|
+      total_area += subcatchment.area if subcatchment.selected?
+    end
+
+    return total_area
+  rescue StandardError => e
+    puts "An error occurred: #{e.message}"
   end
-
-  puts "Total Area: #{total_area}"
 end
 
-# Call the method to calculate and print the total area
-calculate_total_area
-puts 'Thank you for using Ruby in ICM InfoWorks'
+def print_total_area
+  total_area = calculate_total_selected_subcatchment_area
+  puts "Total Area: #{total_area}"
+  puts 'Thank you for using Ruby in ICM SWMM'
+end
+
+print_total_area
