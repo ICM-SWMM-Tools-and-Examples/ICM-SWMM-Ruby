@@ -3,4 +3,10 @@ require 'FileUtils'
 open_net = WSApplication.current_network
 
 # Prompt user for a folder
-cfg_dir = WSApplication.folder_dialog 'Select a folder to import files',  true 
+folder = WSApplication.folder_dialog 'Select a folder to import files',  true
+
+if folder.nil?
+  puts "No folder was selected. Exiting program."
+else
+  # Do something with the selected folder
+end

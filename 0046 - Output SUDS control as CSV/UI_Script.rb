@@ -1,19 +1,43 @@
 #Below ICM UI script can be used to export SUDS control data from each subcatchment to a csv
+
 require 'csv'
-on=WSApplication.current_network
 
-val=WSApplication.prompt "Export Subcatchment SUDS control as CSV",
-[['Output folder','String',nil,nil,'FILE',true,'csv',"CSV",false]
-],false
-csv_path=val[0]
+open_net = WSApplication.current_network
 
+# Prompt user for an output folder
+result = WSApplication.prompt "Export Subcatchment SUDS control as CSV",
+[
+  ['Output folder', 'String', nil, nil, 'FILE', true, 'csv', 'CSV', false]
+], false
+output_folder = result[0]
 
-header=["Subcatchment ID","SUDS structure ID",	"SUDS control ID",	"Control type",	"Area",	"Number of units",	"Area of subcatchment (%)",	"Unit surface width",	"Initial saturation (%)",	"Impervious area treated (%)",	"Pervious area treated (%)",	"Outflow to",	"Drain to subcatchment",	"Drain to node",	"Surface"]
+# Set up the CSV header
+header = [
+  "Subcatchment ID",
+  "SUDS structure ID",
+  "SUDS control ID",
+  "Control type",
+  "Area",
+  "Number of units",
+  "Area of subcatchment (%)",
+  "Unit surface width",
+  "Initial saturation (%)",
+  "Impervious area treated (%)",
+  "Pervious area treated (%)",
+  "Outflow to",
+  "Drain to subcatchment",
+  "Drain to node",
+  "Surface"
+]
 
-suds_array=[header]
-on.row_objects('_subcatchments').each do |sub|
+# Initialize an array to store the CSV data
+suds_data = [header]
+
+# Iterate over each subcatchment and its SUDS controls
+open_net.row_objects('_subcatchments').each do |sub|
   sub.SUDS_controls.each do |control|
-    suds_array.push([
+    # Add a row to the CSV data for each SUDS control
+    suds_data.push([
       sub.subcatchment_id,
       control.id,
       control.suds_structure,
@@ -33,10 +57,9 @@ on.row_objects('_subcatchments').each do |sub|
   end
 end
 
-
-CSV.open(csv_path, "w") do |csv|
-	suds_array.each do |aa|
-		csv<<aa
-	end
-		
+# Write the CSV data to a file in the specified output folder
+CSV.open(output_folder, "w") do |csv|
+  suds_data.each do |row|
+    csv << row
+  end
 end
