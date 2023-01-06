@@ -12,5 +12,5 @@ $on.tables.each do |table|
   end
 end
 $validation=$arr-$valid_arr
-puts "== Flags not part of the validation list =="
+puts "== Flags not part of the validation list [DM,#D] =="
 puts $validation
