@@ -18,6 +18,14 @@ def print_total_area
   total_area = calculate_total_selected_subcatchment_area
   puts "Total Area: #{total_area}"
   puts 'Thank you for using Ruby in ICM SWMM'
+
+  manholes=net.row_objects('sw_subcatchment')
+  puts 'Number of Total Subs',manholes.length
+
+
 end
 
 print_total_area
+
+WSApplication.message_box(
+'Thank you for using Ruby in ICM SWMM','YesNoCancel','?',false)

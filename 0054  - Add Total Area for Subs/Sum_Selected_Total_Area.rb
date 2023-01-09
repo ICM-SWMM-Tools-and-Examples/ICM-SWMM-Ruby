@@ -15,3 +15,8 @@ end
 # Call the method to calculate and print the total area
 calculate_total_area
 puts 'Thank you for using Ruby in ICM InfoWorks'
+
+net=WSApplication.current_network
+manholes=net.row   objects ('hw_subcatchment')
+puts 'Number of Total Subs',manholes.length
+
