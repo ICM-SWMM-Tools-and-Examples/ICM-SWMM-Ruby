@@ -1,4 +1,4 @@
-require 'FileUtils'
+require 'fileutils'
 
 open_net = WSApplication.current_network
 
