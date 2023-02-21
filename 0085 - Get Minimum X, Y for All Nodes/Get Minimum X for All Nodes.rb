@@ -22,4 +22,4 @@ end
 
 # Output the minimum x and y values
 puts "Minimum x, y: #{min_x}, #{min_y}"
-puts 'Welcome to InfoWorks ICM Version'+WSApplication.version
+puts 'Welcome to InfoWorks ICM Version '+WSApplication.version

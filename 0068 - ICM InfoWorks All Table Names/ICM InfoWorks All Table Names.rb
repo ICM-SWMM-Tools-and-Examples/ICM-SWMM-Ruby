@@ -86,7 +86,12 @@ begin
         "hw_subcatchment_defaults",
         "hw_large_catchment_parameters",
         "hw_2d_zone_defaults",
-        "hw_snow_parameters"
+        "hw_snow_parameters",
+        "hw_cross_section_survey",
+        "hw_bank_survey",
+        "hw_prunes",
+        "hw_arma",
+        "hw_roughness_definition"
   ]
   
   nodes_hash_map = Hash.new { |h, k| h[k] = [] }
