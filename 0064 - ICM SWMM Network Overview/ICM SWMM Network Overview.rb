@@ -162,6 +162,8 @@ begin
     end
     printf "%-30s %-d\n", "Number of Outlets", number_channels
 
+    printf "%-30s\n", "This was an overview of the elements in an ICM SWMM Network"
+
     rescue => e
         puts "Error: #{e.message}"
       end
