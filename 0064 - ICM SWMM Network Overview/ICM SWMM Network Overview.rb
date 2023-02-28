@@ -46,20 +46,27 @@ begin
         links_ro = net.row_objects('sw_conduit')
         raise "Error: links not found" if links_ro.nil?
         number_links = 0
+        number_length = 0.0
         links_ro.each do |link|
             number_links += 1
+            number_length += link.length
         end          
         printf "%-30s %-d\n", "Number of SW Links...", number_links
-    
+        printf "%-30s %-f\n", "Total SW Length......", number_length
+
         subcatchments_hash_map = {}
         subcatchments_hash_map = Hash.new { |h, k| h[k] = [] }
         subcatchments_ro = net.row_objects('sw_subcatchment')
         raise "Error: subcatchments not found" if subcatchments_ro.nil?
         number_subcatchments = 0
+        total_area = 0.0        
         subcatchments_ro.each do |subcatchment|
             number_subcatchments += 1
+            total_area += subcatchment.area
         end
+        
         printf "%-30s %-d\n", "Number of SW Subcatchments.", number_subcatchments
+        printf "%-30s %-f\n", "Total SW Subcatchment Area.", total_area
 
         pumps_hash_map = {}
         pumps_hash_map = Hash.new { |h, k| h[k] = [] }
