@@ -21,11 +21,26 @@ begin
         nodes_ro = net.row_objects('sw_node')
         raise "Error: nodes not found" if nodes_ro.nil?
         number_nodes = 0
+        number_outfalls = 0
+        number_storage = 0
+        number_junction = 0
+        
         nodes_ro.each do |node|
             number_nodes += 1
-        end       
-        printf "%-30s %-d\n", "Number of SW Nodes...", number_nodes
-    
+            if node.node_type == 'Outfall'
+                number_outfalls += 1
+            elsif node.node_type == 'Storage'
+                number_storage += 1
+            elsif node.node_type == 'Junction'
+                number_junction += 1
+            end
+        end
+        
+        printf "%-30s %-d\n", "Number of SW Nodes.....", number_nodes
+        printf "%-30s %-d\n", "Number of SW Junctions.", number_junction
+        printf "%-30s %-d\n", "Number of SW Storage...", number_storage
+        printf "%-30s %-d\n", "Number of SW Outfalls..", number_outfalls
+
         links_hash_map = {}
         links_hash_map = Hash.new { |h, k| h[k] = [] }
         links_ro = net.row_objects('sw_conduit')
