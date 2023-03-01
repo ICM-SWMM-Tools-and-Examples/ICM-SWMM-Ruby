@@ -120,8 +120,6 @@ begin
         printf "%-30s %-f\n", "Average Subcatchment Slope", average_slope
         printf "%-30s %-f\n", "Average Subcatchment Width", average_width
         
-        
-
         pumps_hash_map = {}
         pumps_hash_map = Hash.new { |h, k| h[k] = [] }
         pumps_ro = net.row_objects('sw_pump')
