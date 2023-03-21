@@ -1,2 +1,2 @@
-pandoc -s -r html https://www.swmm456.com/2023/03/infoswmm-mrruledbf-file-in-isdb-folder.html -o infoswmm-mrruledbf-file-in-isdb-folder.md
+pandoc -f html -t markdown blog-03-21-2023.xml -o swmm456.md
 pause
