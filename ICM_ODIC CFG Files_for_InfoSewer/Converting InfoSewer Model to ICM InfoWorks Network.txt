@@ -2,7 +2,7 @@ Title: Converting InfoSewer Model to ICM InfoWorks Network
 
 Step 1: Convert DBF Files using Excel Macro
 
-Use the Excel macro InfoSewer_VBA_DBF_CSV_Conversion.xlsm to convert all DBF files in InfoSewer.
+Use the Excel macro InfoSewer_VBA_DBF_CSV_Conversion.xlsm to convert all DBF files in InfoSewer
 
 Step 2: Import InfoSewer Elements to InfoWorks Network using ICM ODIC
 
@@ -23,14 +23,17 @@ Switch to CSV files and import node and link data. Import the CSV files using th
 Step8_InfoSewer__manhole_hydraulics_mhhyd_csv.cfg
 Step9_InfoSewer_link_hydraulics_pipehyd_csv.cfg
 Step10_InfoSewer_pump_control_control_csv.cfg
-Step11_InfoSewer_pump_curve_pumphyd.cfg
+Step11_InfoSewer_pump_curve_pumphyd_csv.cfg
 Step14_Infosewer_wetwell_wwellhyd_csv.cfg
+
 Step 4: Create Subcatchments for Loading Data from InfoSewer
 
 Create subcatchments for the loading data from InfoSewer. Use the following files:
 
-Step12_InfoSewer_subcatchment_xy_node_csv.cfg
 Step13_InfoSewer_subcatchment_dwf_mhhyd_csv.cfg
+Step12_InfoSewer_subcatchment_copy_for_ten_loads.rb
+Step17_InfoSewer_rdii_hydrograph_csv.cfg
+
 Step 5: Read InfoSewer Information Tables
 
 Learn how to read the InfoSewer Information tables (similar to user-defined columns in ICM). Use the following files:
