@@ -9,11 +9,13 @@ Step 2: Import InfoSewer Elements to InfoWorks Network using ICM ODIC
 Use the ICM ODIC to import InfoSewer Elements to an InfoWorks Network. Import the Geodatabase layer using the following files:
 
 Step1_InfoSewer_Manhole_Geodatabase_map_folder.cfg
+Step1a_Make_Subcatchments_From_Imported_InfoSewer_Manholes.rb
 Step2_InfoSewer_Outlet_Geodatabase_map_folder.cfg
 Step3_InfoSewer_Chamber_Geodatabase_map_folder.cfg
 Step4_InfoSewer_WetWell_Geodatabase_map_folder.cfg
 Step5_6_InfoSewer_GM_FM_Geodatabase_map_folder.cfg
 Step7_InfoSewer_Pump_Geodatabase_map_folder.cfg
+
 Step 3: Import Node and Link Data from CSV Files
 
 Switch to CSV files and import node and link data. Import the CSV files using the following files:
