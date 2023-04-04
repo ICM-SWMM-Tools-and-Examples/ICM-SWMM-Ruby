@@ -5,8 +5,7 @@
 Use the Excel macro InfoSewer_VBA_DBF_CSV_Conversion.xlsm to convert all
 DBF files in InfoSewer.
 
-**Step 2: Import InfoSewer Elements to InfoWorks Network using ICM
-ODIC**
+**Step 2: Import InfoSewer Elements to InfoWorks Network using ICM ODIC**
 
 Use the ICM ODIC to import InfoSewer Elements to an InfoWorks Network.
 Import the Geodatabase layer using the following files:
