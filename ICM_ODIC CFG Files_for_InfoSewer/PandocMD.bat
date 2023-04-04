@@ -1,2 +1,2 @@
-pandoc -f plain -t markdown -o "Converting InfoSewer Model to ICM InfoWorks Network.md" "Converting InfoSewer Model to ICM InfoWorks Network.txt"
+pandoc  "Converting InfoSewer Model to ICM InfoWorks Network.txt" -t markdown -o "Converting InfoSewer Model to ICM InfoWorks Network.md" 
 pause
