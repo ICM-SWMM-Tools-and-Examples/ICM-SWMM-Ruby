@@ -1,4 +1,4 @@
-**Title: Converting an InfoSewer Model to an ICM InfoWorks Network usinf ODIC and Ruby**
+**Title: Converting an InfoSewer Model to an ICM InfoWorks Network using ODIC and Ruby**
 
 **Step 1: Convert DBF Files using Excel Macro**
 
