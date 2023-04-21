@@ -1,5 +1,4 @@
 #Below script selects all dry pipes in a ICM model network
-#Below script selects all dry pipes in a ICM model network
 # the code is from https://github.com/chaitanyalakeshri/ruby_scripts
 # modifed by CHATGPT and RED
 
