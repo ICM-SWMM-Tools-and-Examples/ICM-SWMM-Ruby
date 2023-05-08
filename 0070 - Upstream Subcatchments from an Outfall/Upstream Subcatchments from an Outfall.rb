@@ -26,12 +26,15 @@ all_subs.each do |subb|
   node_sub_hash_map[subb.node_id] << subb
 end
 
-
 # Get all the selected rows in the _nodes collection and assign them to the variable roc
 roc = net.row_object_collection_selection('_nodes')
 
 # Create an empty array named unprocessedLinks
 unprocessedLinks = Array.new
+
+# Initialize a counter variable for the total number of subcatchments and a variable for the total are
+total_subcatchments = 0
+total_area = 0.0
 
 roc.each do |ro|
 	# Iterate through all the upstream links of the current row object
@@ -55,7 +58,9 @@ roc.each do |ro|
 			# Now that hash is ready with node id's as key and upstream subcatchments as paired values, keys can be used to get an array containing upstream subcathments
 			# In the below code id's of subcatchments upstream of node 'node_1' are printed. The below code can be reused multiple times for different nodes within the script without being computationally expensive
 			node_sub_hash_map[workingUSNode.id].each  do |sub|
-				puts "Found Upstream Subcatchment #{sub.id} connected to Node #{workingUSNode.id}"
+				# puts "Found Upstream Subcatchment #{sub.id} connected to Node #{workingUSNode.id}"
+				total_area += sub.total_area
+				total_subcatchments += 1
 				sub.selected=true
 			end
 			# Iterate through all the upstream links of the current node and add them to the unprocessedLinks array
@@ -69,3 +74,7 @@ roc.each do |ro|
 		end
 	end
 end
+
+# Print the total number of subcatchments and the total area
+puts "Total number of found Subcatchments: #{total_subcatchments}"
+puts "Total area of found Subcatchments: #{total_area.round(4)}"
